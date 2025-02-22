@@ -18,83 +18,83 @@
     <ClCompile Include="ECS.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Archetype.cpp">
+    <ClCompile Include="include\Archetype.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="World.cpp">
+    <ClCompile Include="include\World.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="ChunkAllocator.cpp">
+    <ClCompile Include="include\ChunkAllocator.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="ComponentManager.cpp">
+    <ClCompile Include="include\ComponentManager.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Entity.cpp">
+    <ClCompile Include="include\Entity.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Query.cpp">
+    <ClCompile Include="include\Query.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="ArchetypeManager.cpp">
+    <ClCompile Include="include\ArchetypeManager.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Records.cpp">
+    <ClCompile Include="include\Records.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="World.hpp">
+    <ClInclude Include="include\World.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Query.hpp">
+    <ClInclude Include="include\Query.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="ComponentMask.hpp">
+    <ClInclude Include="include\ComponentMask.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Archetype.hpp">
+    <ClInclude Include="include\Archetype.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="ComponentManager.hpp">
+    <ClInclude Include="include\ComponentManager.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Chunk.hpp">
+    <ClInclude Include="include\Chunk.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="ChunkAllocator.hpp">
+    <ClInclude Include="include\ChunkAllocator.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Entity.hpp">
+    <ClInclude Include="include\Entity.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Uncopyable.hpp">
+    <ClInclude Include="include\Uncopyable.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="QueryFilters.hpp">
+    <ClInclude Include="include\QueryFilters.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="ArchetypeManager.hpp">
+    <ClInclude Include="include\ArchetypeManager.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Component.hpp">
+    <ClInclude Include="include\Component.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="CompPtr.hpp">
+    <ClInclude Include="include\CompPtr.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="CompOpt.hpp">
+    <ClInclude Include="include\CompOpt.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Records.hpp">
+    <ClInclude Include="include\Records.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="World.inl">
+    <None Include="include\World.inl">
       <Filter>Fichiers d%27en-tête</Filter>
     </None>
-    <None Include="Archetype.inl">
+    <None Include="include\Archetype.inl">
       <Filter>Fichiers d%27en-tête</Filter>
     </None>
   </ItemGroup>

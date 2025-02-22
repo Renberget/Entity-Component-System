@@ -131,36 +131,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Archetype.cpp" />
-    <ClCompile Include="ArchetypeManager.cpp" />
-    <ClCompile Include="ChunkAllocator.cpp" />
-    <ClCompile Include="ComponentManager.cpp" />
+    <ClCompile Include="include\Archetype.cpp" />
+    <ClCompile Include="include\ArchetypeManager.cpp" />
+    <ClCompile Include="include\ChunkAllocator.cpp" />
+    <ClCompile Include="include\ComponentManager.cpp" />
     <ClCompile Include="ECS.cpp" />
-    <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="Records.cpp" />
-    <ClCompile Include="World.cpp" />
-    <ClCompile Include="Query.cpp" />
+    <ClCompile Include="include\Entity.cpp" />
+    <ClCompile Include="include\Records.cpp" />
+    <ClCompile Include="include\World.cpp" />
+    <ClCompile Include="include\Query.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Archetype.hpp" />
-    <ClInclude Include="ArchetypeManager.hpp" />
-    <ClInclude Include="Chunk.hpp" />
-    <ClInclude Include="ChunkAllocator.hpp" />
-    <ClInclude Include="Component.hpp" />
-    <ClInclude Include="ComponentManager.hpp" />
-    <ClInclude Include="CompOpt.hpp" />
-    <ClInclude Include="CompPtr.hpp" />
-    <ClInclude Include="Entity.hpp" />
-    <ClInclude Include="Records.hpp" />
-    <ClInclude Include="World.hpp" />
-    <ClInclude Include="Query.hpp" />
-    <ClInclude Include="ComponentMask.hpp" />
-    <ClInclude Include="QueryFilters.hpp" />
-    <ClInclude Include="Uncopyable.hpp" />
+    <ClInclude Include="include\Archetype.hpp" />
+    <ClInclude Include="include\ArchetypeManager.hpp" />
+    <ClInclude Include="include\Chunk.hpp" />
+    <ClInclude Include="include\ChunkAllocator.hpp" />
+    <ClInclude Include="include\Component.hpp" />
+    <ClInclude Include="include\ComponentManager.hpp" />
+    <ClInclude Include="include\CompOpt.hpp" />
+    <ClInclude Include="include\CompPtr.hpp" />
+    <ClInclude Include="include\Entity.hpp" />
+    <ClInclude Include="include\Records.hpp" />
+    <ClInclude Include="include\World.hpp" />
+    <ClInclude Include="include\Query.hpp" />
+    <ClInclude Include="include\ComponentMask.hpp" />
+    <ClInclude Include="include\QueryFilters.hpp" />
+    <ClInclude Include="include\Uncopyable.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Archetype.inl" />
-    <None Include="World.inl" />
+    <None Include="include\Archetype.inl" />
+    <None Include="include\World.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
